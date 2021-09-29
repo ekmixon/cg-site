@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', "2.0"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
+  gem "jekyll-assets", "~> 3.0", ">= 3.0.12", group: :jekyll_plugins
   gem "jekyll-last-modified-at"
 end
 
@@ -32,7 +32,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer", "~> 3.10"
+gem "html-proofer", "~> 3.15", ">= 3.15.1"
 gem "kramdown-parser-gfm"
 
-gem "nokogiri", ">= 1.11.0.rc4"
+gem "nokogiri", ">= 1.12.5"
