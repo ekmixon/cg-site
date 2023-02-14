@@ -13,7 +13,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
-gem "sprockets", "~> 3.7"
+gem "sprockets", "~> 3.7", ">= 3.7.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', "2.0"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
+  gem "jekyll-assets", "~> 3.0", ">= 3.0.12", group: :jekyll_plugins
   gem "jekyll-last-modified-at"
 end
 
