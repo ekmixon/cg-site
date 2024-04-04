@@ -13,7 +13,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
-gem "sprockets", "~> 3.7"
+gem "sprockets", "~> 3.7", ">= 3.7.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -32,7 +32,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer", "~> 3.10"
+gem "html-proofer", "~> 3.15", ">= 3.15.2"
 gem "kramdown-parser-gfm"
 
-gem "nokogiri", ">= 1.11.0.rc4"
+gem "nokogiri", ">= 1.15.6"
