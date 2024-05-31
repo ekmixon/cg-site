@@ -32,7 +32,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer", "~> 3.10"
+gem "html-proofer", "~> 3.15", ">= 3.15.2"
 gem "kramdown-parser-gfm"
 
-gem "nokogiri", ">= 1.11.0.rc4"
+gem "nokogiri", ">= 1.16.5"
